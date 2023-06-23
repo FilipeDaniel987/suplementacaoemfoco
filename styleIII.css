@@ -1,0 +1,84 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #808080;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #555;
+      color: #fff;
+      padding: 10px;
+    }
+    
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    h1 {
+      font-size: 24px;
+    }
+
+    .topo img {
+      width: 165px;
+      height: 165px;
+      margin-right: 1px;
+    }
+    
+    .contact {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 10px;
+      margin-bottom: 20px;
+      display: flex;
+    }
+    
+    .contact img {
+      width: 100px;
+      height: 100px;
+      margin-right: 20px;
+    }
+    
+    .contact-info {
+      flex: 1;
+    }
+    
+    .contact-title {
+      font-size: 18px;
+      margin: 0;
+    }
+    
+    .contact-price {
+      color: #888;
+      margin: 5px 0;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
